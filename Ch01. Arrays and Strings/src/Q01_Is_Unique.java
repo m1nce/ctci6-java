@@ -3,6 +3,9 @@
  * June 19, 2023
  */
 
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 public class Q01_Is_Unique {
     /**
      * Determines if a string has all unique characters without an
@@ -22,13 +25,15 @@ public class Q01_Is_Unique {
         return true;
     }
 
-    public static void main(String[] args) {
+    @Test
+    public void test1() {
         String test1 = "hello";
-        boolean expected1 = false;
-        assert expected1 == isUnique(test1);
+        assertFalse(isUnique(test1));
+    }
 
+    @Test
+    public void test2() {
         String test2 = "no duplicates";
-        boolean expected2 = true;
-        assert expected2 == isUnique(test2);
+        assertTrue(isUnique(test2));
     }
 }
