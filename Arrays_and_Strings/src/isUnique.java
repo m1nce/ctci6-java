@@ -1,3 +1,8 @@
+/**
+ * Minchan Kim
+ * June 19, 2023
+ */
+
 public class isUnique {
     public static boolean isUnique(String input) {
         // check for duplicates in-place. average O(n^2) implementation
