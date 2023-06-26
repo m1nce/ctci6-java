@@ -8,6 +8,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Q08_Zero_Matrix {
+    /**
+     * If an element in an MxN matrix is 0, its entire row and column are set to 0.
+     * @param matrix original matrix
+     * @return matrix that has been zero'd
+     */
     public static int[][] zeroMatrix(int[][] matrix) {
         Queue<Integer[]> zeroIndices = new LinkedList<>();
         // gets all positions in matrix with 0's
