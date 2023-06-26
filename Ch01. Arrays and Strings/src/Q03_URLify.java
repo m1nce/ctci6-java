@@ -8,8 +8,10 @@ import static org.junit.Assert.*;
 
 public class Q03_URLify {
     /**
-     * Replaces all spaces in a string with '%20' in-place.
-     * @param input
+     * Replaces all spaces in a string with '%20' in-place
+     * @param input string to url-ify
+     * @param truelength length of string without extra spaces
+     * @return url-ify'd string
      */
     public static char[] urlify(String input, int truelength) {
         // turn string into char array to be in-place within java

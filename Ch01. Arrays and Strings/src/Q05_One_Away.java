@@ -8,6 +8,12 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Q05_One_Away {
+    /**
+     * Checks if two strings are one/zero edits away from one another
+     * @param word1 first string
+     * @param word2 second string
+     * @return strings are one/zero edits away (T/F)
+     */
     public static boolean oneAway(String word1, String word2) {
         // if there is more than one difference in length between the two words,
         // then more than one edit is required.

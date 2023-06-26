@@ -7,6 +7,12 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Q06_String_Compression {
+    /**
+     * Performs basic string compression and returns the compressed string
+     * if it is shorter than the original string.
+     * @param compress string to compress
+     * @return compressed string
+     */
     public static String stringCompression(String compress) {
         // initialize instance variables
         char[] ca = compress.toCharArray();

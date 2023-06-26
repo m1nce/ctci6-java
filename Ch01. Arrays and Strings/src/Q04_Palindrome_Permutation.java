@@ -8,6 +8,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class Q04_Palindrome_Permutation {
+    /**
+     * Checks to see if a string is a permutation of a palindrome.
+     * @param word string to check for palindrome permutation
+     * @return argument is palindrome permutation (T/F)
+     */
     public static boolean palindromePermutation(String word) {
         // adds all characters besides spaces into hashmap
         HashMap<Character, Integer> characterMap = new HashMap<>();
