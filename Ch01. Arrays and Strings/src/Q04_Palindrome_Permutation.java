@@ -1,6 +1,6 @@
 /**
- * Minchan Kim
- * June 24, 2023
+ * @author Minchan Kim
+ * @since  June 24, 2023
  */
 
 import java.util.*;

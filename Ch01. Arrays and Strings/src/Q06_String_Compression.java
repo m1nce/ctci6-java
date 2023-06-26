@@ -1,6 +1,6 @@
 /**
- * Minchan Kim
- * June 26, 2023
+ * @author Minchan Kim
+ * @since  June 26, 2023
  */
 
 import org.junit.Test;
